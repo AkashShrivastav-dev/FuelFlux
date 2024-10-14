@@ -113,7 +113,7 @@ function sendMail(event) {
   };
 
   // Send email using EmailJS
-  emailjs.send("service_gzv0ypk", "template_r9gkc8l", params).then(
+  emailjs.send("service_b09d2wn", "template_l4hy2xq", params).then(
     function (response) {
       // Show success alert
       alert("Email Sent Successfully!");
@@ -142,7 +142,7 @@ function sendBusinessMail(event) {
   };
 
   // Send email using EmailJS for Business form
-  emailjs.send("service_gzv0ypk", "template_r9gkc8l", params).then(
+  emailjs.send("service_b09d2wn", "template_l4hy2xq", params).then(
     function (response) {
       alert("Business Inquiry Sent Successfully!");
       console.log("SUCCESS!", response.status, response.text);
